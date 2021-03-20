@@ -1,0 +1,27 @@
+
+.logo{
+  display: flex;
+  background-image: linear-gradient(to right, yellow, orange, red, yellowgreen, green);
+  padding: 0 2cm 0 2cm;
+  justify-content: space-between;
+}
+body{
+  background-color: darkseagreen;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.description{
+  text-align: center;
+  
+}
+header{
+  text-align: center;
+}
+
